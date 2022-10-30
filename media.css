@@ -1,0 +1,87 @@
+@media(max-width:992px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .secleft {
+        padding: 0;
+    }
+
+    .secleft h1 {
+        font-size: 34px;
+        text-align: center;
+    }
+
+    .secleft p {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .phoneimg img,
+    .moveimg img,
+    .tvimg {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+
+    .video {
+        left: 17%;
+    }
+
+    .download {
+        top: 61%;
+        left: 22%;
+    }
+
+    .moveimg video {
+        left: 159px;
+    }
+
+    .lastsec {
+        padding: 30px;
+    }
+
+    .footerli ul {
+        padding: 20px 10px 40px 0px;
+    }
+
+
+
+}
+
+@media (max-width:690px) {
+
+    .emailsubcriptn .lastemail,
+    .question,
+    .email {
+        width: 90%;
+    }
+
+    .download {
+        display: none;
+    }
+
+    .bannerheading h1 {
+        font-size: 30px;
+    }
+
+    .getstart {
+        margin: 20px;
+    }
+
+    .langbtn1,
+    .moveimg video {
+        display: none;
+    }
+
+    .emailsubcriptn .email {
+        width: 95%;
+    }
+
+    .question p {
+        margin: 10px 4px;
+    }
+
+}
