@@ -1,4 +1,4 @@
-live site - https://aquamarine-crisp-c4680c.netlify.app/ 
+live site - https://netfliixlandingpage.netlify.app/
 
 this is Netflix landing clone using HTML, CSS, JQUARY 
 
