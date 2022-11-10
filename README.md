@@ -1,4 +1,4 @@
-live site - https://netfliixlandingpage.netlify.app/
+live site - https://super-croquembouche-4fa4b4.netlify.app/
 
 this is Netflix landing clone using HTML, CSS, JQUARY 
 
