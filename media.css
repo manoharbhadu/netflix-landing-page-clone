@@ -59,7 +59,12 @@
         width: 90%;
     }
 
-    .download {
+    .logo {
+        /* display: none; */
+    }
+
+    .download,
+    .lastreadyp {
         display: none;
     }
 
@@ -84,4 +89,30 @@
         margin: 10px 4px;
     }
 
+    .lastsec {
+        padding: 20px;
+    }
+
+    .footer ul li {
+        font-size: 10px;
+    }
+
+    .lastitem,
+    .footerlang {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 50%;
+        margin: auto;
+    }
+
+    body {
+        min-width: 300px;
+    }
+
+    .question .questionitem {
+        padding: 15px 20px;
+        margin: 0px;
+    }
 }
