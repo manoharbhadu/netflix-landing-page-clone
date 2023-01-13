@@ -5,267 +5,244 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Netflix</title>
+    <meta name="description"
+        content="Hello World,this is manohar bhadu. I'm a Web developer. I create webpage layout using html css js and other language.">
+    <meta name="keywords"
+        content="manohar bhadu,web development, web designing, front end developer, website, jodhpur, india">
+    <meta name="author" content="Manohar Bhadu">
+    <meta property="og:title" content="Manohar Bhadu" />
+    <link rel="shortcut icon"
+        href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBtL-rPZSLZHZ5n3fXT-0y7gCrOiLOJcEwvA&usqp=CAU"
+        type="image/x-icon">
+    <title>manohar bhadu portfolio website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" no-repat>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
-        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/animatecss/3.5.2/animate.min.css">
 </head>
 
 <body>
     <main>
-        <header>
-            <section class="banner background">
-                <nav>
-                    <div class="logo"><img src="img/logo.png" alt="Netflix logo" height="50px" width="160px"></div>
-                    <div class="navbtn">
-                        <div class="rightnav">
-                            <label for="langbtn" class="langbtn langbtn1">
-                                <i class="fa-sharp fa-solid fa-globe globe"></i>
-                                <select name="langsel" id="selectlang">
-                                    <option value="English" selected " id=" eng">English</option>
-                                    <option value=" Hindi">हिन्दी</option>
-                                </select>
-                            </label>
-                            <div class="signinbtn">
-                                <input type="button" value="Sign-in" class="signinbtnin">
-                            </div>
-                        </div>
-                    </div>
-                </nav>
-                <section class="bannerheading">
-                    <h1>Unlimited movies, TV <br> shows and more.</h1>
-                    <h4>Watch anywhere. Cancel anytime.</h4>
-                    <p>Ready to watch? Enter your email to create or restart your membership.</p>
-                    <div class="emailsubcriptn">
-                        <input type="email" placeholder="E-mail address" class="email">
-                        <input type="button" value="Get Started >" class="getstart">
-                    </div>
-                </section>
-            </section>
-
+        <header class="section_1 section" id="home">
+            <canvas id="space"></canvas>
+            <div class="row banner">
+                <!-- <div class="img">
+                    <img src="" alt="manohar img">
+                </div> -->
+                <div class="intro">
+                    <h1>Hey, I'm <span class="name wow fadeInLeft"> &lt;MANOHAR BHADU/&gt;</span></h1>
+                    <h2>I'm a web developer</h2>
+                </div>
+            </div>
         </header>
-        <section class="sec">
-            <div class="container">
-                <div class="secleft">
-                    <h1>Enjoy on your TV.</h1>
-                    <p>Watch on smart TVs, PlayStation, Xbox, <br> Chromecast, Apple TV, Blu-ray players and <br> more.
+
+
+        <div class="blank"></div>
+        <nav class="navbaar" id="navbaar">
+            <ul><a href="#home">HOME</a></ul>
+            <ul><a href="#about">ABOUT</a></ul>
+            <ul><a href="#skill">SKILL</a></ul>
+            <ul><a href="#project">PROJECT</a></ul>
+            <ul><a href="#contact">CONTACT</a></ul>
+        </nav>
+
+        <section class="section" id="about">
+            <div class="row about">
+                <div class="aboutimg">
+                    <img src="img/photo.jpg" alt="" width="400px" height="500px">
+                </div>
+                <div class="aboutinfo">
+                    <p class="sectionheader aboutme">About me<span style="color: #e31b6d;">.</span></p>
+                    <p class="aboutpera">
+                        Hi I am Manohar bhadu, Web developer. I live in jodhpur, Rajasthan. I completed my
+                        12th in 2021 and currently i am learning web development form wscube tech. i am intersted to
+                        create a webpage layout
+                        using html, css and javascript. <br>
+                        I made many of layout and clone you can see on <a
+                            href="https://github.com/manoharbhadu">Github</a>.
                     </p>
-                </div>
-                <div class="secright">
-                    <div class="secrightimg ">
-                        <img src="img/tv.png" alt="tvimg" width="90%" class="tvimg">
-                        <video autoplay="" loop="" muted="" class="video">
-                            <source
-                                src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-in-0819.m4v"
-                                type="video/mp4" />
-                        </video>
+                    <div class="social_icon">
+                        <a href="https://www.linkedin.com/in/manohar-lal-bhadu/" title="Linkdin" target="_blank"><i
+                                class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="https://github.com/manoharbhadu" title="Github" target="_blank"><i
+                                class="fa-brands fa-github"></i></a>
+                        <a href="https://codepen.io/manor320" title="codepen" target="_blank"><i
+                                class="fa-brands fa-codepen"></i></a>
+                        <a href="https://www.instagram.com/manor_37/?next=%2F" title="Instagram" target="_blank"><i
+                                class="fa-brands fa-instagram"></i></a>
                     </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="secright sec2right">
-                    <div class="secrightimg">
-                        <div class="phoneimg">
-                            <img src="img/mobile-0819.jpg" alt="tvimg">
-                        </div>
-                        <div class="download">
-                            <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/boxshot.png"
-                                width="65px" height="90%" alt="" class="downloadimg1">
-                            <p>Stranger Things <br>
-                                <span>Downloading...</span>
-                            </p>
-                            <img src="img/download-icon.gif" alt="" class="downloadimg2">
-                        </div>
-
-                    </div>
-                </div>
-                <div class="secleft sec2left">
-                    <h1>Download your shows <br> to watch offline.</h1>
-                    <p>Save your favourites easily and always have something to watch.
-                    </p>
-                </div>
-            </div>
-            <div class="container">
-                <div class="secleft sec2left">
-                    <h1>Watch everywhere.</h1>
-                    <p>Stream unlimited movies and TV <br> shows on your phone, tablet, laptop, <br> and TV.
-                    </p>
-                </div>
-                <div class="secright sec2right">
-                    <div class="secrightimg ">
-                        <div class="moveimg">
-                            <img src="img/device-pile-in.png" alt="">
-                            <video autoplay="" loop="" muted="" class="video">
-                                <source src="img/video-device.m4v" type="video/mp4" />
-                            </video>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="secright sec2right">
-                    <div class="secrightimg child">
-                        <img src="img/child.png" alt="">
-                    </div>
-                </div>
-                <div class="secleft sec2left">
-                    <h1>Create profiles for <br> children.</h1>
-                    <p>Send children on adventures with their <br> favourite characters in a space made just <br> for
-                        them—free
-                        with your membership.
-                    </p>
-                </div>
-            </div>
-            <div class="container qcont">
-                <div class="question">
-                    <h1>Frequently Asked Questions</h1>
-                    <div class="faqcontainer">
-                        <div class="questionitem">
-                            <span class="qusspan"> What is netflix? </span>
-                            <span class="plusminus">
-                                <i class="fa-solid fa-angle-down"></i>
-
-                            </span>
-                        </div>
-                        <div class="ans">
-                            Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies,
-                            anime, documentaries and more – on thousands of internet-connected devices. <br>
-                            You can watch as much as you want, whenever you want, without a single ad – all for one low
-                            monthly price. There's always something new to discover, and new TV shows and movies are
-                            added every week!
-                        </div>
-                    </div>
-                    <div class="faqcontainer">
-                        <div class="questionitem">
-                            <span class="qusspan"> How much does netflix cost? </span>
-                            <span class="plusminus">
-                                <i class="fa-solid fa-angle-down"></i>
-
-                            </span>
-                        </div>
-                        <div class="ans">
-                            Watch Netflix on your smartphone, tablet, Smart TV, laptop, or streaming device, all for one
-                            fixed monthly fee. Plans range from ₹ 199 to ₹ 799 a month. No extra costs, no contracts.
-                        </div>
-                    </div>
-                    <div class="faqcontainer">
-                        <div class="questionitem">
-                            <span class="qusspan"> How do I cancel? </span>
-                            <span class="plusminus">
-                                <i class="fa-solid fa-angle-down"></i>
-
-                            </span>
-                        </div>
-                        <div class="ans">
-                            Netflix is flexible. There are no annoying contracts and no commitments. You can easily
-                            cancel your account online in two clicks. There are no cancellation fees – start or stop
-                            your account anytime.
-                        </div>
-                    </div>
-                    <div class="faqcontainer">
-                        <div class="questionitem">
-                            <span class="qusspan"> How do i cancel?</span>
-                            <span class="plusminus">
-                                <i class="fa-solid fa-angle-down"></i>
-                            </span>
-                        </div>
-                        <div class="ans">
-                            Netflix is flexible. There are no annoying contracts and no commitments. You can easily
-                            cancel your account online in two clicks. There are no cancellation fees – start or stop
-                            your account anytime.
-                        </div>
-                    </div>
-                    <div class="faqcontainer">
-                        <div class="questionitem">
-                            <span class="qusspan"> What can I watch from Netflix? </span>
-                            <span class="plusminus">
-                                <i class="fa-solid fa-angle-down"></i>
-
-                            </span>
-                        </div>
-                        <div class="ans">
-                            Netflix has an extensive library of feature films, documentaries, TV shows, anime,
-                            award-winning Netflix originals, and more. Watch as much as you want, anytime you want.
-                        </div>
-                    </div>
-                    <div class="faqcontainer">
-                        <div class="questionitem">
-                            <span class="qusspan"> Is Netflix good for kids? </span>
-                            <span class="plusminus">
-                                <i class="fa-solid fa-angle-down"></i>
-                            </span>
-                        </div>
-                        <div class="ans">
-                            The Netflix Kids experience is included in your membership to give parents control while
-                            kids enjoy family-friendly TV shows and films in their own space.
-                            Kids profiles come with PIN-protected parental controls that let you restrict the maturity
-                            rating of content kids can watch and block specific titles you don’t want kids to see.
-                        </div>
-                    </div>
-                </div>
-                <p class="lastreadyp">Ready to watch? Enter your email to create or restart your membership.
-
-                </p>
-                <section class="bannerheading">
-                    <div class="emailsubcriptn">
-                        <input type="email" placeholder="E-mail address" class="email lastemail">
-                        <input type="button" value="Get Started >" class="getstart getstart2">
-                    </div>
-                </section>
-                <div class="container lastsec">
-                    <div class="footer">
-                        <p>Questions? Call 000-800-040-1843</p>
-                        <div class="footerli">
-
-                            <ul>
-                                <li>FAQ</li>
-                                <li>Investor Relations</li>
-                                <li>Privacy</li>
-                                <li>Speed Test</li>
-                            </ul>
-                            <ul>
-                                <li>Help Centre </li>
-                                <li>Jobs</li>
-                                <li>Cookie Preferences</li>
-                                <li>Legal Notices</li>
-                            </ul>
-                            <ul>
-                                <li>Account</li>
-                                <li>Ways to Watch</li>
-                                <li>Corporate Information</li>
-                                <li>Only on Netflix</li>
-                            </ul>
-                            <ul>
-                                <li>Media Centre</li>
-                                <li>Terms of Use</li>
-                                <li>Contact Us</li>
-                            </ul>
-                        </div>
-                        <label for="langbtn" class="langbtn footerlang">
-                            <select name="langsel" id="selectlang">
-                                <option value="English" selected class="selectlang2">English</option>
-                                <option value="Hindi">हिन्दी</option>
-                            </select>
-                        </label> <br> <br>
-                        <span class="lastitem">Netflix India</span>
+                    <div class="cv">
+                        <button class="btn">
+                            <a href="https://drive.google.com/file/d/1R3Mvy0uOTdXOlaWsb6isKYIqu3OSUOLX/view?usp=sharing"
+                                target="_blank" download>Download CV</a>
+                        </button>
                     </div>
                 </div>
             </div>
         </section>
-    </main>
 
+        <section class="section skill_container" id="skill">
+            <h1 class="sectionheader section_header2">Skill</h1>
+            <div class="skill wow fadeInUp">
+                <div class="htmll html">
+                    <i class="fa-brands fa-html5"></i>
+                    <p class="skillname">HTML5</p>
+                </div>
+                <div class="css html">
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <p class="skillname">CSS3</p>
+                </div>
+                <div class="js html">
+                    <i class="fa-brands fa-square-js"></i>
+                    <p class="skillname">Javascript</p>
+                </div>
+                <div class="bootstrap html">
+                    <i class="fa-brands fa-bootstrap"></i>
+                    <p class="skillname">Bootstrap</p>
+                </div>
+                <div class="jq html">
+                    <i class="fa-brands fa-square-js"></i>
+                    <p class="skillname">Jquery</p>
+                </div>
+                <div class="php html">
+                    <i class="fa-brands fa-php"></i>
+                    <p class="skillname">php</p>
+                </div>
+                <div class="github html">
+                    <i class="fa-brands fa-github"></i>
+                    <p class="skillname">github</p>
+                </div>
+                <div class="css html">
+                    <img src="img/mysql.png" alt="" width="70">
+                    <p class="skillname">Mysql</p>
+                </div>
+                <div class="windows html">
+                    <i class="fa-brands fa-windows"></i>
+                    <p class="skillname">windows os</p>
+                </div>
+        </section>
+
+        <section class="section" id="project">
+            <p class="sectionheader section_header2">Project</p>
+            <div class="project">
+
+                <div class="project_cont">
+                    <div class="project_img">
+                        <img src="img/calcul.png" alt="">
+                    </div>
+                    <div class="project_item">
+                        <a href="https://github.com/manoharbhadu/calculatar" target="_blank"> <button
+                                class="project_btn">CODE</button></a>
+                        <a href="https://manoharcalculator.netlify.app/" target="_blank"> <button
+                                class="project_btn">LIVE
+                                SITE</button></a>
+                    </div>
+                </div>
+                <div class="project_cont">
+                    <div class="project_img">
+                        <img src="img/netflixsc.png" alt="">
+                    </div>
+                    <div class="project_item">
+                        <a href="https://github.com/manoharbhadu/netflix-landing-page-clone" target="_blank"> <button
+                                class="project_btn">CODE</button></a>
+                        <a href="https://netflixlandingpage23.netlify.app" target="_blank"><button
+                                class="project_btn">LIVE
+                                SITE</button></a>
+                    </div>
+                </div>
+                <div class="project_cont">
+                    <div class="project_img">
+                        <img src="img/flipkart.png" alt="">
+                    </div>
+                    <div class="project_item">
+                        <a href="https://github.com/manoharbhadu/flipkartclone/tree/main" target="_blank"><button
+                                class="project_btn">CODE</button></a>
+                        <a href="https://flipkartbymanor.netlify.app/" target="_blank"><button class="project_btn">LIVE
+                                SITE</button></a>
+                    </div>
+                </div>
+
+                <div class="project_cont">
+                    <div class="project_img">
+                        <img src="img/todo.png" alt="">
+                    </div>
+                    <div class="project_item">
+                        <a href="https://github.com/manoharbhadu/to-do-app"><button
+                                class="project_btn">CODE</button></a>
+                        <a href="https://todobymanor.netlify.app/" target="_blank"><button class="project_btn">LIVE
+                                SITE</button></a>
+                    </div>
+                </div>
+                <div class="project_cont">
+                    <div class="project_img">
+                        <img src="img/onpage.png" alt="">
+                    </div>
+                    <div class="project_item">
+                        <a href="https://github.com/manoharbhadu/one-page-website"> <button
+                                class="project_btn">CODE</button></a>
+                        <a href="https://metanewsfeed.netlify.app/" target="_blank"> <button class="project_btn">LIVE
+                                SITE</button></a>
+                    </div>
+                </div>
+                <div class="project_cont">
+                    <div class="project_img">
+                        <img src="img/smarciy.png" alt="">
+                    </div>
+                    <div class="project_item">
+                        <a href="https://github.com/manoharbhadu/smartcity"> <button
+                                class="project_btn">CODE</button></a>
+                        <a href="https://smartcitybymanor.netlify.app/" target="_blank"> <button
+                                class="project_btn">LIVE
+                                SITE</button></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section contact" id="contact">
+            <p class="sectionheader contactus">Contact Us</p>
+            <div class="conaxt_row">
+                <div class="contact_second">
+                    <form name="submit-to-google-sheet">
+                        <input name="name" placeholder="name" required>
+                        <input name="email" type="email" placeholder="email" required>
+                        <textarea name="message" id="" cols="21.5" rows="4" placeholder="message"></textarea>
+                        <span id="msg"></span>
+                        <button class="btn submit wow bounceIn" type="submit">Send</button>
+                    </form>
+                </div>
+                <div class="contact_first">
+                    <div class="contact_info">
+                        <p><i class="fa-solid fa-paper-plane"></i>manohar.bhadoo@gmail.com</p>
+                        <p><i class="fa-solid fa-phone"></i>8955609817</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>Made With <i class="fa fa-heart" style="color: #e31b6d;"></i> by Manohar Bhadu</footer>
+    </main>
 </body>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 <script src="script.js"></script>
+<script src="js/wow.min.js"></script>
 <script>
-    $('.questionitem').click(function () {
-        $(this).parent().siblings().find('.ans').slideUp()
-        $(this).next().slideToggle()
-        $(this).parent().find('.fa-angle-down').addClass('.rotateclass')
-    })
+    $(window).on("load scroll", function () {
+        "use strict";
+        $(".wow").css("animation-play-state", "paused");
+        $(".wow").each(function () {
+            if (!($(this).data("wow-duration"))) {
+                $(this).data("wow-duration", "1s");
+            }
+            if ($(this).data("wow-offset") + $(this).offset().top <= $(window).scrollTop() + $(window).height() || (!($(this).data("wow-offset")) && $(this).offset().top <= $(window).scrollTop() + $(window).height())) {
+                $(this).css("animation-play-state", "running ");
+                $(this).css({
+                    "animationDuration": $(this).data("wow-duration"),
+                    "animationDelay": $(this).data("wow-delay"),
+                    "animationIterationCount": $(this).data("wow-iteration")
+                });
+            }
+        });
+    });
 </script>
 
 </html>
